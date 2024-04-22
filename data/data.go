@@ -11,6 +11,4 @@ var Books = map[int]string{
 	3: "the crime",
 }
 
-var Orders = map[int]string{
-	
-}
+var Orders = map[string]string{}
