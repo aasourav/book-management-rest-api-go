@@ -14,4 +14,6 @@ type Books struct {
 	ListOfBooks []Book
 }
 
-
+func (B *Books) AddBooksToList(book Book) {
+	B.ListOfBooks = append(B.ListOfBooks, book)
+}
