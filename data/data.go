@@ -11,4 +11,6 @@ var Books = map[int]string{
 	3: "the crime",
 }
 
-var Orders = map[string]string{}
+var Orders = make(map[string][]int)
+
+var NumberOfRequest = 0

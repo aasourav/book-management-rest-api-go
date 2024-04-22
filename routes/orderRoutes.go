@@ -7,6 +7,6 @@ import (
 )
 
 func OrderRoutes(router *mux.Router) {
-	router.HandleFunc("/orderBook", controllers.OrderBook)
+	router.HandleFunc("/orderBook/{bookId}", controllers.OrderBook)
 	router.HandleFunc("/listAllOrderedBooks", controllers.ListAllOrderedBooks)
 }
